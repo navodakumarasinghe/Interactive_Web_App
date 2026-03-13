@@ -1,30 +1,31 @@
 # 🍲 Interactive Recipe Web App
 
-This is an interactive web application designed to help users easily discover and view various food recipes. The project features over 200 high-quality images and a diverse collection of recipes.
+This is a modern, interactive web application designed to help users discover and view a wide variety of culinary recipes. The project features a collection of 200+ high-quality images and a dynamic user interface for a seamless cooking experience.
 
 ## ✨ Features
-* **Search Functionality:** Quickly find your favorite recipes by name.
-* **Responsive Design:** Fully optimized for all devices, including mobile phones, tablets, and desktops.
-* **Filter Categories:** Browse recipes by categories such as Breakfast, Lunch, or Dinner.
-* **Interactive UI:** A modern, attractive, and user-friendly interface for an enhanced cooking experience.
+* **Advanced Search:** Find recipes instantly by typing names in the search bar.
+* **Category Filtering:** Browse through recipes categorized by Breakfast, Lunch, Dinner, and Snacks.
+* **Fully Responsive:** Optimized for a perfect viewing experience on Mobiles, Tablets, and Desktops using Bootstrap.
+* **Interactive UI:** Dynamic content rendering using JavaScript without page reloads.
+* **Detailed Recipe Views:** Each recipe includes ingredients, step-by-step instructions, and nutritional information.
 
 ## 🛠️ Tech Stack
-* **HTML5** - For the core structure of the web pages.
-* **CSS3** - For styling, layouts, and smooth animations.
-* **JavaScript** - To power the search logic, filtering, and dynamic content rendering.
+* **HTML5** - Semantic structure of the application.
+* **CSS3** - Custom styling and layout enhancements.
+* **Bootstrap 5** - Responsive grid system and UI components (Cards, Navbar, Modals).
+* **JavaScript (ES6+)** - Logic for search functionality, data filtering, and DOM manipulation.
 
 ## 📂 File Structure
-
+```text
 Interactive_Web_App/
-
+├── index.html          # Main landing page & Discovery hub
+├── recipes.html        # Main recipe browsing page
+├── collection.html     # Categorized collections page
+├── about.html          # Information about the project
+├── contact.html        # Contact and feedback page
+├── auth.html           # User authentication interface
 ├── css/
-│   └── style.css
-├── images/           
+│   └── style.css       # Custom application styles
 ├── js/
-│   └── script.js
-├── about.html
-├── auth.html
-├── collection.html
-├── contact.html
-├── index.html
-└── recipes.html
+│   └── script.js      # Core JavaScript logic & Recipe data
+└── images/             # Directory containing 200+ recipe images
