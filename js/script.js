@@ -14,7 +14,7 @@ const recipes = [
     fat: "10g",
     carb: "2g",
     yt: "https://www.youtube.com/embed/ixpYIgHlU60",
-    img: "C:/Users/Navoda/Desktop/Interactive_Web_App/images/10.jpeg",
+    img: "images/10.jpeg",
     ing: "• Eggs – 2\n• Onion – 1\n• Salt/Pepper",
     steps: "1. Whisk eggs.\n2. Fry until golden brown.",
     tips: "Add cheese for more flavor.",
