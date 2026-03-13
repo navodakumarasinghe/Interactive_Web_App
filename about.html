@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | FlavorFlow</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+.about-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/226.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            border-radius: 0 0 50px 50px;
+        }
+
+        .stat-card {
+            background: #ffc107;
+            border-radius: 15px;
+            padding: 20px 10px; 
+            border: none;
+            transition: all 0.4s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 250px;
+            margin: 0 auto;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(255, 193, 7, 0.3);
+            background: #ffb300;
+        }
+
+        .stat-icon {
+            font-size: 26px; /* ප්‍රමාණය සමබර කරන ලදී */
+            color: #000000;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .stat-card h3 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #000000;
+            margin-bottom: 2px;
+        }
+
+        .stat-card p {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #000000;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        .dev-badge {
+            background: #fff3cd;
+            color: #856404;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3 custom-navbar">
+        <div class="nav-bg-pattern"></div>
+        <div class="container position-relative">
+            <a class="navbar-brand fw-bold text-warning fs-3" href="index.html">🥘 FLAVORFLOW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-3">
+                    <li class="nav-item"><a class="nav-link nav-btn-final" href="index.html">Home🏠</a></li>
+                    <li class="nav-item"><a class="nav-link nav-btn-final" href="recipes.html">Recipes🍳</a></li>
+                    <li class="nav-item"><a class="nav-link nav-btn-final" href="collection.html">Collection📚</a></li>
+                    <li class="nav-item"><a class="nav-link nav-btn-final active" href="about.html">Aboutℹ️</a></li>
+                    <li class="nav-item"><a class="nav-link nav-btn-final" href="contact.html">Contact📞</a></li>
+                    <li class="nav-item"><a class="nav-link nav-btn-final" href="auth.html">Login</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="about-hero shadow-lg mb-5">
+        <div class="container text-center">
+            <span class="badge bg-warning text-dark px-4 py-2 rounded-pill mb-3 fw-bold">SINCE 2026</span>
+            <h1 class="display-3 fw-bold">Discover the Art of <span class="text-warning">Cooking</span></h1>
+            <p class="lead opacity-90">Where Every Recipe Tells a Story and Every Flavor Creates a Memory.</p>
+        </div>
+    </header>
+
+    <div class="container mb-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <h6 class="text-warning fw-bold text-uppercase letter-spacing-2">How it started</h6>
+                <h2 class="fw-bold mb-4 display-6">Our Culinary <span class="text-warning">Story</span></h2>
+                <p class="text-muted lh-lg mb-4">
+                    FlavorFlow was born out of a simple passion: to make the art of cooking accessible, organized, and deeply personal for everyone. We believe that a recipe is more than just instructions; it is a legacy passed down through generations and a secret shared between friends.
+                </p>
+                <p class="text-muted lh-lg">
+                    Our platform serves as your digital companion, allowing you to curate your own "Culinary Library," save personal notes, and rediscover the joy of creating delicious meals without the clutter of traditional cookbooks.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <img src="images/228.jpeg" class="img-fluid rounded-5 shadow-lg" alt="Cooking Story">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5 py-5">
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="stat-card">
+                    <i class="fas fa-utensils stat-icon"></i>
+                    <h3>100+</h3>
+                    <p>Secret Recipes</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="stat-card">
+                    <i class="fas fa-users stat-icon"></i>
+                    <h3>500+</h3>
+                    <p>Global Foodies</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="stat-card">
+                    <i class="fas fa-medal stat-icon"></i>
+                    <h3>Premium</h3>
+                    <p>Curated Quality</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 mb-5">
+    <div class="bg-white p-5 rounded-5 shadow-lg border-0 overflow-hidden position-relative">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5 text-center">
+                <img src="images/222.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-warning shadow-sm" 
+                     alt="Navoda Kumarasinghe" 
+                     style="width: 250px; height: 250px; object-fit: cover;">
+            </div>
+            <div class="col-lg-7">
+                <h2 class="fw-bold mb-2">Navoda Nethmini Kumarasinghe</h2>
+                <p class="text-warning fw-bold mb-3 fs-5">Lead Developer & Culinary Visionary</p>
+                <p class="text-muted lh-lg mb-4" style="font-size: 0.95rem;">
+                    "Studying at Rajarata University, I combined my technical expertise with my love for gastronomy to build <strong>FlavorFlow</strong>. My goal was to create a digital sanctuary where food lovers can store their memories in the form of flavors. This project represents the perfect blend of modern technology and the timeless warmth of a home kitchen."
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <a href="#" class="text-dark"><i class="fab fa-linkedin fs-4"></i></a>
+                    <a href="#" class="text-dark"><i class="fab fa-github fs-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</div> 
+
+   <footer class="bg-dark text-white pt-5 pb-3 mt-5 w-100" style="position: relative; z-index: 100;">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-4 mb-4">
+                <h4 class="text-warning fw-bold mb-3">🥘 FLAVORFLOW</h4>
+                <p class="text-white-50">
+                    Your ultimate digital recipe book—save and organize your culinary favorites in one place
+                </p>
+            </div>
+
+            <div class="col-lg-4 mb-4 text-center">
+                <h5 class="fw-bold mb-3 text-uppercase text-warning">Quick Navigation</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="index.html" class="text-white text-decoration-none footer-link">Home 🏠</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="recipes.html" class="text-white text-decoration-none footer-link">Recipes 🍳</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="collection.html" class="text-white text-decoration-none footer-link">Collection 📚</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="about.html" class="text-white text-decoration-none footer-link">About Us ℹ️</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="contact.html" class="text-white text-decoration-none footer-link">Contact 📞</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 mb-4 text-center text-lg-end">
+                <h5 class="fw-bold mb-3 text-uppercase text-warning">Follow Us</h5>
+                <div class="d-flex justify-content-lg-end justify-content-center gap-3 mb-4">
+                    <a href="https://facebook.com" target="_blank" class="text-white fs-4 social-hover"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="text-white fs-4 social-hover"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com" target="_blank" class="text-white fs-4 social-hover"><i class="fab fa-youtube"></i></a>
+                    <a href="https://whatsapp.com" target="_blank" class="text-white fs-4 social-hover"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <p class="text-white-50 small"><i class="fas fa-envelope me-2 text-warning"></i> info@flavorflow.com</p>
+                <p class="text-white-50 small"><i class="fas fa-map-marker-alt me-2 text-warning"></i> Rajarata University, Sri Lanka</p>
+            </div>
+        </div>
+
+        <hr class="my-4 opacity-25 border-warning">
+
+        <div class="text-center">
+            <p class="mb-0 text-white-50 small">
+                Copyright © 2026 <span class="text-warning">FlavorFlow</span>. Developed with ❤️ by <b>Navoda Kumarasinghe</b>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .footer-link {
+        transition: 0.3s;
+        display: inline-block;
+    }
+    .footer-link:hover {
+        color: #ffc107 !important;
+        padding-left: 8px;
+    }
+    .social-hover {
+        transition: 0.3s;
+        display: inline-block;
+    }
+    .social-hover:hover {
+        color: #ffc107 !important;
+        transform: translateY(-3px);
+    }
+</style>
+
+</html>
