@@ -14,10 +14,15 @@ This is an interactive web application designed to help users easily discover an
 * **JavaScript** - To power the search logic, filtering, and dynamic content rendering.
 
 ## 📂 File Structure
-```text
-├── index.html         # Main landing page
-├── about.html         # About us page
-├── contact.html       # Contact form page
-├── css/               # Folder containing all stylesheets
-├── js/                # Folder containing JavaScript logic files
-└── images/            # Folder containing 200+ recipe images
+Interactive_Web_App/
+├── css/
+│   └── style.css
+├── images/           
+├── js/
+│   └── script.js
+├── about.html
+├── auth.html
+├── collection.html
+├── contact.html
+├── index.html
+└── recipes.html
