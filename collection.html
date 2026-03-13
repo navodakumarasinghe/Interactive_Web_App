@@ -214,7 +214,7 @@
         let filteredData = currentFilter === 'all' ? data : data.filter(item => item.type === currentFilter);
         
         if (filteredData.length === 0) {
-            grid.innerHTML = `<div class="col-12 text-center py-5"><h4 class="text-muted">හිස් එකතුවකි! 🏺</h4></div>`;
+            grid.innerHTML = `<div class="col-12 text-center py-5"><h4 class="text-muted">It's an empty collection! 🏺</h4></div>`;
             return;
         }
 
@@ -286,8 +286,8 @@
         } else {
             Swal.fire({
                 icon: 'error',
-                title: 'දත්ත නැත',
-                text: 'මෙම වට්ටෝරුවේ සම්පූර්ණ විස්තර සොයාගත නොහැක.',
+                title: 'No data',
+                text: 'The full details of this recipe cannot be found ',
                 confirmButtonColor: '#ffc107'
             });
         }
