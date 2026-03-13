@@ -14,7 +14,9 @@ This is an interactive web application designed to help users easily discover an
 * **JavaScript** - To power the search logic, filtering, and dynamic content rendering.
 
 ## 📂 File Structure
+
 Interactive_Web_App/
+
 ├── css/
 │   └── style.css
 ├── images/           
